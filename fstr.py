@@ -1,5 +1,7 @@
 fname=input('Enter file name: ')
+print(fname)
 fhand=open(fname)
+
 wlist=list()
 for line in fhand :
 	line=line.strip()
@@ -8,3 +10,4 @@ for line in fhand :
 		if e not in wlist :
 			wlist.append(e)
 print(wlist.sort())			
+
