@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="TIME">
+        <item>6:00am-8:00am</item>
+        <item>8:00am-12:00pm</item>
+        <item>12:00pm-5:00pm</item>
+        <item>5:00pm-10:00pm</item>
+        <item>10:00pm-6:00am</item>
+    </string-array>
+</resources>
